@@ -45,7 +45,7 @@ To let's find out which is custom error this signature represents, we can use th
 
 <p>The L1 fee that a transaction is required to pay is determined by compressing its data with brotli and multiplying the size of the result (in bytes) by ArbOS's current calldata price; the latter value can be queried via the <code>getPricesInWei</code>method of the <code>ArbGasInfo</code>precompile.</p>
 
-### What is a retryable ticket's "submission fee"? How can I calculate it? What happens if I the fee I provide is insufficient? {#what-is-a-retryable-tickets-submission-fee-how-can-i-calculate-it-what-happens-if-i-the-fee-i-provide-is-insufficient}
+### What is a retryable ticket's "submission fee"? 我该如何计算？ What happens if I the fee I provide is insufficient? {#what-is-a-retryable-tickets-submission-fee-how-can-i-calculate-it-what-happens-if-i-the-fee-i-provide-is-insufficient}
 
 <p>A <a href="https://developer.arbitrum.io/arbos/l1-to-l2-messaging">retryable's</a> submission fee is a special fee a user must pay to create a retryable ticket. The fee is directly proportional to the size of the L1 calldata the retryable ticket uses. The fee can be queried using the <code>Inbox.calculateRetryableSubmissionFee</code>method. If insufficient fee is provided, the transaction will revert on L1, and the ticket won't get created. </p>
 
