@@ -16,7 +16,7 @@
 
 ### How do I move assets between One and Nova? {#how-do-i-move-assets-between-one-and-nova}
 
-<p>Both Arbitrum One and Arbitrum Nova run as layers on top of Ethereum. Thus, you can always move assets between the two chains in two steps by going "through" Ethereum. In other words: withdraw your assets on Arbitrum One to Ethereum and then deposit them onto Nova, or conversely, withdraw your assets from Nova on to Ethreum and then deposit them on to Arbitrum One. These steps can all be done at <a href="https://bridge.arbitrum.io/">https://bridge.arbitrum.io/</a>.</p>
+<p>Both Arbitrum One and Arbitrum Nova run as layers on top of Ethereum. Thus, you can always move assets between the two chains in two steps by going "through" Ethereum. Both Arbitrum One and Arbitrum Nova run as layers on top of Ethereum. Thus, you can always move assets between the two chains in two steps by going "through" Ethereum. In other words: withdraw your assets on Arbitrum One to Ethereum and then deposit them onto Nova, or conversely, withdraw your assets from Nova on to Ethreum and then deposit them on to Arbitrum One. These steps can all be done at <a href="https://bridge.arbitrum.io/">https://bridge.arbitrum.io/</a>. These steps can all be done at <a href="https://bridge.arbitrum.io/">https://bridge.arbitrum.io/</a>.</p>
 
 <p>Some <a href="https://portal.arbitrum.one/#bridges">third party bridges</a> support transferring between Arbitrum One and Nova directly; (remember that third party bridges are created by third parties; DYOR!)</p>
 
