@@ -8,7 +8,7 @@
 
 ### How can I check if the node is running properly and diagnose the issue if it is not? {#how-can-i-check-if-the-node-is-running-properly-and-diagnose-the-issue-if-it-is-not}
 
-<p>We have trace-level logging RPC request implemented on our node. You could use it to log all requests and responses at the trace level. (The performance impact of this should be negligible compared to the network overhead of an RPC request in the first place, especially considering that the request/response will only be serialized for logging if that log level is enabled.)</p>
+<p>We have trace-level logging RPC request implemented on our node. You could use it to log all requests and responses at the trace level. (The performance impact of this should be negligible compared to the network overhead of an RPC request in the first place, especially considering that the request/response will only be serialized for logging if that log level is enabled.) You could use it to log all requests and responses at the trace level. (The performance impact of this should be negligible compared to the network overhead of an RPC request in the first place, especially considering that the request/response will only be serialized for logging if that log level is enabled.)</p>
 
 <p></p>
 
@@ -20,7 +20,7 @@
 
 ### Can I run an Arbitrum Node in p2p mode? {#can-i-run-an-arbitrum-node-in-p2p-mode}
 
-<p>Arbitrum doesn't have a consensus mechanism, so "p2p mode" doesn't apply. For nodes to sync to the latest chain state, they connect to an L1 node to sync the chain's history that's been posted in calldata and connect to the Sequencer feed for the transactions that have yet to be posted in batches. In no case do nodes need to peer up and sync with each other.</p>
+<p>Arbitrum doesn't have a consensus mechanism, so "p2p mode" doesn't apply. Arbitrum doesn't have a consensus mechanism, so "p2p mode" doesn't apply. For nodes to sync to the latest chain state, they connect to an L1 node to sync the chain's history that's been posted in calldata and connect to the Sequencer feed for the transactions that have yet to be posted in batches. In no case do nodes need to peer up and sync with each other. In no case do nodes need to peer up and sync with each other.</p>
 
 ### How do I read messages from the Sequencer feed? {#how-do-i-read-messages-from-the-sequencer-feed}
 
